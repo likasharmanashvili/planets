@@ -1,14 +1,11 @@
 import { useState } from 'react';
-import { PlanetData } from '../types/common'; 
 import data from "../data.json"
 import Header from "../components/Header"
 import mars from "../assets/planet-mars.svg"
 import iMars from "../assets/planet-mars-internal.svg"
 import marsGeology from "../assets/geology-mars.png"
 
-interface MarsData {
-  data: PlanetData[];
-}
+
 
 const marsData = data.find((planet) => planet.name === "Mars");
 

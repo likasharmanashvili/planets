@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { PlanetData } from '../types/common'; 
 import data from "../data.json"
 import Header from "../components/Header"
 import saturn from "../assets/planet-saturn.svg"

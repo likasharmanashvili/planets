@@ -1,14 +1,11 @@
 import { useState } from 'react';
-import { PlanetData } from '../types/common'; 
 import data from "../data.json"
 import Header from "../components/Header"
 import mercury from "../assets/planet-mercury.svg"
 import mercuryInternal from "../assets/planet-mercury-internal.svg"
 import mercuryGeology from "../assets/geology-mercury.png"
 
-interface MercuryData {
-  data: PlanetData[];
-}
+
 
 const mercuryData = data.find((planet) => planet.name === "Mercury");
 
