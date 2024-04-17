@@ -22,7 +22,7 @@ const router = createBrowserRouter(
   
     {
       path: "/jupiter",
-      element: <Jupiter />
+      element: <Jupiter/>
 
     },
 

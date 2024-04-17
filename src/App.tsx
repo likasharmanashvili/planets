@@ -1,7 +1,6 @@
 
 import "./index.css"
-import Header from './components/Header'
-
+import EarthD from "./pages/Earth"
 
 
 
@@ -12,8 +11,8 @@ function App() {
     <>
 
    
-    <Header />
-      
+   
+      <EarthD />
     
   
   

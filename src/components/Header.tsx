@@ -23,7 +23,7 @@ const Header = () => {
       
       <ul className={`menu ${isOpen ? 'open' : ''}`}>
         <li onClick={closeMenu}>
-          <Link to="/Earth">EARTH </Link>
+          <Link to="/">EARTH </Link>
         </li>
         <li onClick={closeMenu}>
           <Link to="/jupiter">JUPITER</Link>

@@ -1,11 +1,32 @@
- export interface PlanetData {
-    name: string;
-    overview: { content: string; source: string }
-    structure: { content: string; source: string } ;
-    geology: { content: string; source: string };
-    rotation: string;
-    revolution: string;
-    radius: string;
-    temperature: string;
-    images: { planet: string; internal: string; geology: string };
-  }
+export interface PlanetOverview {
+  content: string;
+  source: string;
+}
+
+export interface PlanetStructure {
+  content: string;
+  source: string;
+}
+
+export interface PlanetGeology {
+  content: string;
+  source: string;
+}
+
+export interface PlanetImages {
+  planet: string;
+  internal: string;
+  geology: string;
+}
+
+export interface PlanetData {
+  name: string;
+  overview: PlanetOverview;
+  structure: PlanetStructure;
+  geology: PlanetGeology;
+  rotation: string;
+  revolution: string;
+  radius: string;
+  temperature: string;
+  images: PlanetImages;
+}
