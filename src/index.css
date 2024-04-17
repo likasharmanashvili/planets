@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Tac+One&display=swap');
+
+body {
+    font-family: Antonio;
+    background-color: #070724;
+    background-image: url("./assets//background-stars.svg");
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+background-color: #070724;
+color: white;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .hamburger {
+    display: none; 
+    cursor: pointer;
+  }
+  
+ 
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  .menu {
+    list-style-type: none;
+    
+    display: flex;
+margin-left: 600px;
+  }
+  
+  .menu li {
+    margin-right: 30px;
+  
+  }
+  
+  .menu li  a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  .menu-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  .Buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 400px;
+  }
+  .ButtonsM{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    margin-left: 760px;
+    margin-top: 400px;
+  }
+  .button{
+    width: 350px;
+height: 48px;
+gap: 0px;
+opacity: 0px;
+background-color: #070724;
+font-size: 12px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 2.5714285373687744px;
+text-align: left;
+color: white;
+border:  1px solid grey;
+text-align: center;
+  }
+  .button:hover{
+    background-color: #6D2ED5;
+  }
+ .external,.internal{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+ }
+ .externalM,.internalM{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 200px;
+ }
+  .info >p{
+    width: 350px;
+height: 150px;
+top: 339px;
+left: 925px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  .info{
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  .infoM{
+    margin-left: 700px;
+    margin-top: -470px;
+  }
+ 
+  .marsG{
+  margin-top: 120px;
+  margin-left: 150px;
+  }
+  .infoM > a{
+    text-decoration: none;
+    color: grey;
+  }
+  .infoM >p{
+    width: 350px;
+height: 150px;
+top: 339px;
+left: 925px;
+gap: 0px;
+opacity: 0px;
+  }
+  .infoMer{
+    width: 350px;
+height: 150px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+margin-left: 660px;
+margin-top: -400px
+  }
+  .imgMercury{
+    margin-top: 300px;
+    margin-left: 100px;
+  }
+  .img{
+  margin-top: 120px;
+  margin-left: 100px;
+  position: relative;
+  
+  }
+  .geologyM{
+    position: absolute;
+    width: 129px;
+    margin-left: 220px;
+    margin-top: -80px;
+  }
+  .geologyMercury{
+    position: absolute;
+    width: 129px;
+    margin-left: 120px;
+    margin-top: -80px;
+  }
+  .infoMer >a{
+    text-decoration: none;
+    color: grey;
+  }
+.info > a{
+  text-decoration: none;
+  color: grey;
+}
+.geology{
+  position: absolute;
+  width: 200px;
+  margin-top: -100px;
+  margin-left: 100px;
+}
+.geologymain{
+  margin-top: 100px;
+  margin-left: -100px;
+}
+.geologyE{
+  position: absolute;
+  width: 200px;
+  margin-top: -100px;
+}
+.infoGeologyE{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -470px;
+}
+.infoGeologyE >p{
+  width: 350px;
+height: 150px;
+top: 339px;
+left: 925px;
+gap: 0px;
+opacity: 0px;
+
+}
+.infoGeology{
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -470px;
+}
+.infoGeology >p{
+  width: 350px;
+height: 150px;
+top: 339px;
+left: 925px;
+gap: 0px;
+opacity: 0px;
+
+}
+.infoGeologyE >a{
+  text-decoration: none;
+  color: grey;
+}
+.infoGeology >a{
+  text-decoration: none;
+  color: grey;
+}
+.mainInfo{
+  margin-top: 800px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.mainInfoMercury{display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 260px;
+}
+.mainInfoI{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.mainInfoM{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
+.div1, .div2, .div3, .div4
+{
+  width: 255px;
+height: 128px;
+top: 840px;
+left: 165px;
+gap: 0px;
+opacity: 0px;
+border: 1px solid #FFFFFF;
+text-align: center;
+}
+.div1, .div2, .div3, .div4 > p{
+  font-family: Antonio;
+font-size: 20px
+}
+.infoJ{
+  margin-left: 163px;
+  margin-top: 100px;
+}
+.infoJ >a{
+  text-decoration: none;
+  color: grey;
+}
+
+.infoJ >p{
+  width: 350px;
+gap: 0px;
+opacity: 0px;
+}
+.geologyJ{
+  width: 450px;
+  height: 450px;
+  top: 248px;
+  left: 255px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: -100px;
+  margin-top: 100px;
+  
+}
+.infoGeology{
+  margin-top: -510px;
+}
+
+.infoGeologyN{
+  width: 300px;
+  position: absolute;
+  margin-left: 700px;
+  margin-top: -350px;
+}
+.infoGeologyN >a{
+  color: grey;
+}
+.JUPITEiMG, .geologyJ{
+  width: 450px;
+height: 450px;
+top: 248px;
+left: 255px;
+gap: 0px;
+opacity: 0px;
+
+}
+.infoStaurn{
+  width: 300px;
+  margin-top: 100px;
+  margin-left: -60px;
+  
+}
+.infoStaurnG{
+  width: 300px;
+  position: absolute;
+  margin-left: 705px;
+  margin-top: -700px
+}
+.geologyImg{
+  margin-left: -200px;
+  margin-top: 60px;
+}
+.geologyS{
+  margin-top: -300px;
+  width: 200px;
+}
+.infoU{
+  width: 300px;
+ margin-left: 700px;
+  margin-top: -400px;
+}
+.geologyMars{
+  margin-top: 200px
+}
+.venus{
+  width: 470px;
+}
+.infoVenus{
+  width: 300px;
+  margin-left: 700px;
+  margin-top: -400px;
+}
+  @media (width < 968px) {
+    .header{
+        justify-content: space-between;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+       height: 80px;
+        z-index: -1000;
+        border-bottom: 1px solid grey;
+    }
+    body{
+      display: flex;
+      flex-direction: column;
+    }
+    .external{
+      flex-direction: column;
+    }
+    .Buttons{
+      margin-top: 40px;
+flex-direction: row;
+width: 350px;
+border-bottom: 1px solid grey;
+margin-left: 10px;
+height: 80px;
+gap: 35px;
+    }
+    .ButtonsM{
+      margin-top: 40px;
+      flex-direction: row;
+      width: 350px;
+      border-bottom: 1px solid grey;
+      margin-left: 10px;
+      height: 80px;
+      gap: 35px;
+    }
+    .button{
+      width:80px;
+    }
+    .mainImg{
+      width: 173px;
+height: 173px;
+
+gap: 0px;
+opacity: 0px;
+margin-top: 100px;
+
+    }
+
+    .mainInfoI{
+      flex-direction: column;
+      
+    }
+.info{
+  
+  margin-left: 50px;
+  width: 200px;
+  margin-top: -50px;
+}
+.geologymain{
+  width: 200px;
+  margin-top: -100px;
+}
+.geologyE{
+  margin-left: -160px;
+  width: 100px;
+  margin-top: -20px;
+}
+.info >
+p{
+  width: 300px;
+}
+    .button{
+      border: none;
+    }
+    .hamburger {
+      display: block; 
+     background-color: aliceblue;
+  
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      background-color: #070724;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-left: 10px;
+      gap: 27px;
+      z-index: 1000;
+    }
+  
+    .menu.open {
+      display: flex; 
+    }
+  
+    .menu li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .internal{
+      flex-direction: column;
+    }
+    .geology{
+      flex-direction: column;
+      margin-top: 200px;
+    }
+    .JUPITEiMG{
+      width: 173px;
+height: 173px;
+top: 184px;
+left: 101px;
+gap: 0px;
+opacity: 0px;
+margin-top: 100px;
+
+    }
+.infoJ{
+  width: 200px;
+margin-left: 20px;
+margin-top: -100px;
+}
+.geologyJ{
+  width: 224px;
+height: 224px;
+top: 159px;
+left: 75px;
+gap: 0px;
+opacity: 0px;
+margin-top: -100px;
+margin-left: -130px;
+}
+  .geology {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+  .infoGeology{
+    margin-left: -90px;
+    margin-top: 100px;
+    height: 60px;
+  }
+.img .geology{
+  width: 100px;
+position: absolute;
+margin-top: -1px;
+margin-left: -110px;
+}
+
+
+  .infoGeologyE {
+   margin-left: -100px;
+   margin-top: 60px;
+  }
+
+  .mainInfo {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .mainInfoMercury{
+    flex-direction: column; 
+    align-items: center;
+    width: 300px;
+  }
+  .mercuryImg{
+    margin-left: -270px;
+  }
+
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
+    width: 100%; 
+    margin-bottom: 20px; 
+  }
+  .mainInfoM{
+    flex-direction: column;
+    width: 300px;
+    margin-left: 25px;
+  }
+  .externalM > .info {
+    margin-left: -330px;
+    margin-top: 470px;
+  }
+  .internalM > .info{
+    margin-left: -330px;
+    margin-top: 470px;
+  }
+  .infoM{
+margin-left: -90px;
+margin-top: 100px;
+text-align: left;
+  }
+.extmars{
+  margin-left: -270px;
+  width: 300px;
+  margin-top: 50px;
+  
+}
+.geology1> .mainInfo{
+  margin-top: 100px;
+
+}
+.geologyMars{
+  margin-left: -180px;
+  width: 300px;
+  margin-top: -100px;
+}
+.geologyM{
+  margin-left: -200px;
+}
+.mainInfo{
+  margin-top: 900px;
+  
+}
+.mercuryImg{
+  margin-top: 60px;
+}
+.mainInfoMercury{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+.internalMercur{
+  margin-left: -250px;
+  margin-top: 100px;
+}
+.internalM > .info{
+  margin-top: 600px;
+}
+.geoMercury{
+  margin-left: -160px;
+  margin-top: -250px;
+}
+.geologyMercury{
+  margin-left: -100px;
+}
+.infoMer{
+  margin-top: 120px;
+  margin-left: -100px;
+}
+.NeptuneImg{
+  width: 273px;
+  height: 273px;
+  top: 184px;
+  left: 301px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 100px;
+  margin-left: -50px;
+
+}
+.intNeptune{
+  width: 273px;
+  height: 273px;
+  top: 184px;
+  left: 301px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+.intMercury{
+  width: 273px;
+  height: 273px;
+  top: 184px;
+  left: 301px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: -130px;
+  margin-top: -100px;
+}
+.infoGeologyN{
+  margin-top: 120px;
+  margin-left: -80px;
+  text-align: left;
+}
+.mainInfoI{
+  width: 300px;
+}
+.saturnImg{
+  width: 300px;
+  margin-left: -70px;
+  margin-top: 100px;
+}
+.infoStaurn{
+  margin-left: 30px;
+  margin-top: -100px;
+}
+.mainInfoI{
+  margin-left: 30px;
+}
+
+.geologyImg{
+  width: 300px;
+  margin-top: -100px;
+}
+.geologyS{
+  width: 100px;
+  margin-left: -90px;
+}
+.infoStaurnG{
+  margin-top: 70px;
+  margin-left: -70px;
+
+}
+
+.uranusImg{
+  width: 300px;
+  margin-top: 100px;
+  margin-left: -70px;
+}
+
+.GeoUranus{
+  width: 300px;
+  margin-left: -170px;
+  margin-top: -100px;
+}
+.infoU{
+  margin-top: 100px;
+  margin-left: -70px;
+  text-align: left;
+}
+.venus{
+  width: 300px;
+  margin-left: -70px;
+  margin-top: 40px;
+}
+.geology > .img >.venus{
+  margin-left: -180px;
+  margin-top: -100px;
+}
+
+.infoVenus{
+  margin-top: 100px;
+  margin-left: -80px;
+  text-align: left;
+}
+
+
+
+
+
+}
+
+  
+  
